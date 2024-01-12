@@ -1,0 +1,7 @@
+#GET request for all persons in phonebook
+GET http://localhost:3001/api/persons
+
+###
+
+#GET request for person with id = 4
+GET http://localhost:3001/api/persons/4
