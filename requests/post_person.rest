@@ -5,3 +5,13 @@ Content-Type: application/json
     "name":"Jens",
     "number":"1111111"
 }
+
+###
+#Test faulty POST request
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Testperson",
+    "number": ""
+}
